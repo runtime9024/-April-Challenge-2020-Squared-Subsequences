@@ -1,6 +1,7 @@
 # -April-Challenge-2020-Squared-Subsequences
 Code
 
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -9,9 +10,10 @@ ll dpR[100001];
 
 int main()
 {
+    
     ll t;cin>>t;
     while(t--)
-    {
+    {    
         memset(dpL,0,sizeof(dpL));
         memset(dpR,0,sizeof(dpR));
         ll n;cin>>n;
